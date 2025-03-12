@@ -21,6 +21,35 @@ a {
 
 .row {
   display: flex;
+  flex-wrap: wrap;
+  row-gap: 2rem;
+  margin-left: -1rem;
+  margin-right: -1rem;
+}
+
+[class*="col"] {
+  padding-left: 1rem;
+  padding-right: 1rem;
+}
+
+.col-1-2 {
+  width: calc(100% / 2);
+}
+
+.col-1-3 {
+  width: calc(100% / 3);
+}
+
+.col-1-4 {
+  width: calc(100% / 4);
+}
+
+.col-1-5 {
+  width: calc(100% / 5);
+}
+
+.col-1-6 {
+  width: calc(100% / 6);
 }
 
 ul {
@@ -44,8 +73,37 @@ ul {
   padding-right: 10px;
 }
 
+/* uso classe wrapper per portare in basso in footer */
+.wrapper {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+.mx-10 {
+  margin: 0 10px;
+}
+
+.mx-5 {
+  margin: 0 5px;
+}
 /* HEADER */
 
+.header-box {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 15px;
+}
+
+.header-list {
+  display: flex;
+}
+
 /* MAIN */
+
+main {
+  flex-grow: 1;
+}
 
 /* FOOTER */
