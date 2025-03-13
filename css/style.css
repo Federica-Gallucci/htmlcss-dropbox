@@ -285,6 +285,25 @@ main .row {
   color: grey;
 }
 
+.team-build {
+  display: flex;
+  justify-content: center;
+}
+
+.enterprise-bottom {
+  display: flex;
+  justify-content: space-between;
+}
+
+#business-plane .enterprise-bottom button {
+  padding-right: 20px;
+}
+
+#business-plane h5 {
+  padding-top: 20px;
+  padding-bottom: 50px;
+}
+
 /* #FIND PARTNER */
 
 #find-partner {
