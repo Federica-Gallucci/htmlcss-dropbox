@@ -310,6 +310,20 @@ main .row {
   padding-top: 60px;
 }
 
+.botton-solid-black {
+  border: 1px solid black;
+  background-color: white;
+}
+
+.text-find {
+  padding-top: 110px;
+}
+
+#find-partner h3,
+#find-partner h3 {
+  padding-bottom: 20px;
+}
+
 /* #UTILITIES */
 
 #utilities {
