@@ -19,30 +19,34 @@
       <header>
         <div class="header-box">
           <div class="header-left">
-            <ul class="header-list">
-              <li class="mx-10">
-                <img src="./img/logo-small.png" alt="logo" />
-              </li>
-              <li class="mx-10">Perchè Dropbox</li>
-              <li class="mx-10">Funzioni</li>
-              <li class="mx-10">Prezzi e Piani</li>
-            </ul>
+            <nav>
+              <ul class="header-list">
+                <li class="mx-10">
+                  <img src="./img/logo-small.png" alt="logo" />
+                </li>
+                <li class="mx-10">Perchè Dropbox</li>
+                <li class="mx-10">Funzioni</li>
+                <li class="mx-10">Prezzi e Piani</li>
+              </ul>
+            </nav>
           </div>
           <div class="header-right">
-            <ul class="header-list">
-              <li class="mx-10">Supporto</li>
-              <li class="mx-10">Contatta l'ufficio</li>
-              <li class="mx-10">Accedi</li>
-              <li class="mx-10">
-                <button class="botton-blue button-small">Inizia</button>
-              </li>
-            </ul>
+            <nav>
+              <ul class="header-list">
+                <li class="mx-10">Supporto</li>
+                <li class="mx-10">Contatta l'ufficio</li>
+                <li class="mx-10">Accedi</li>
+                <li class="mx-10">
+                  <button class="botton-blue button-small">Inizia</button>
+                </li>
+              </ul>
+            </nav>
           </div>
         </div>
       </header>
 
       <main>
-        <div class="main-one">
+        <section id="jumbo">
           <div class="hero">
             <div class="container">
               <div class="row">
@@ -77,33 +81,121 @@
               </div>
             </div>
           </div>
-        </div>
+        </section>
 
-        <div class="main-two">
+        <section id="business-plane">
           <div class="container">
-            <div class="row">
-              <div class="col-100">
-                <div class="card">
-                  <h3>Trova il piano business che fa per te</h3>
+            <div class="col-100">
+              <div class="business-title">
+                <h2>Trova il piano business che fa per te</h2>
+                <div class="chose-botton">
+                  <p>
+                    <button class="botton-border"></button> fatturazione mensile
+                  </p>
+                  <p>
+                    <button class="botton-solid"></button> fatturazione annuale
+                  </p>
                 </div>
               </div>
+            </div>
+            <div class="row">
               <div class="col-1-3">
-                <div class="card">professional</div>
+                <div class="card">
+                  <div class="card-top">
+                    <span class="icone-text"
+                      ><i class="fa-solid fa-user"></i> Singolo</span
+                    >
+                  </div>
+
+                  <div class="card-medium">
+                    <h3>Professional</h3>
+                    <p><strong>&euro 12.000 </strong></p>
+                    <p class="month">/mese</p>
+                    <ul>
+                      <li>1 utente</li>
+                      <li>5T</li>
+                      <li>Funzioni</li>
+                    </ul>
+                    <div class="move-button">
+                      <button class="button-big2 botton-blue">
+                        Prova gratis per 30 giorni
+                      </button>
+                    </div>
+                    <div class="buy-link">
+                      <p>oppure</p>
+                      <nav class="link">acquista ancora</nav>
+                    </div>
+                  </div>
+                  <div class="card-bottom">
+                    <h4>Punti salienti del piano</h4>
+                  </div>
+                </div>
               </div>
+
               <div class="col-1-3">
-                <div class="card">Advance</div>
+                <div class="card">
+                  <div class="card-top">
+                    <span class="icone-text">icona testo</span>
+                  </div>
+
+                  <div class="card-medium">
+                    <h3>Professional</h3>
+                    <p><strong>&euro 12.000 </strong></p>
+                    <p class="month">/mese</p>
+                    <ul>
+                      <li>1 utente</li>
+                      <li>5T</li>
+                      <li>Funzioni</li>
+                    </ul>
+                    <div class="move-button">
+                      <button class="button-big2 botton-blue">
+                        Prova gratis per 30 giorni
+                      </button>
+                    </div>
+                    <div class="buy-link">
+                      <p>oppure</p>
+                      <nav class="link">acquista ancora</nav>
+                    </div>
+                  </div>
+                </div>
               </div>
+
               <div class="col-1-3">
-                <div class="card">Enterprice</div>
+                <div class="card">
+                  <div class="card-top">
+                    <span class="icone-text">icona testo</span>
+                  </div>
+
+                  <div class="card-medium">
+                    <h3>Professional</h3>
+                    <p><strong>&euro 12.000 </strong></p>
+                    <p class="month">/mese</p>
+                    <ul>
+                      <li>1 utente</li>
+                      <li>5T</li>
+                      <li>Funzioni</li>
+                    </ul>
+                    <div class="move-button">
+                      <button class="button-big2 botton-blue">
+                        Prova gratis per 30 giorni
+                      </button>
+                    </div>
+                    <div class="buy-link">
+                      <p>oppure</p>
+                      <nav class="link">acquista ancora</nav>
+                    </div>
+                  </div>
+                </div>
               </div>
+
               <div class="col-100">
                 <div class="card">Enterprise-low</div>
               </div>
             </div>
           </div>
-        </div>
+        </section>
 
-        <div class="main-three">
+        <section id="find-partner">
           <div class="container">
             <div class="row">
               <div class="col-1-2">
@@ -114,9 +206,9 @@
               </div>
             </div>
           </div>
-        </div>
+        </section>
 
-        <div class="main-four">
+        <section id="utilities">
           <div class="container">
             <div class="row">
               <div class="col-100">
@@ -144,9 +236,9 @@
               </div>
             </div>
           </div>
-        </div>
+        </section>
 
-        <div class="main-five">
+        <section id="clients">
           <div class="container">
             <div class="row">
               <div class="col-100">
@@ -159,27 +251,70 @@
               </div>
             </div>
           </div>
-        </div>
+        </section>
       </main>
 
-      <footer>
-        <div class="page-footer">
-          <div class="container">
-            <div class="row">
-              <div class="col-1-5">
-                <div class="card">Dropbox</div>
+      <footer class="page-footer">
+        <div class="container">
+          <div class="row">
+            <div class="col-1-5">
+              <div class="first">
+                <h class="footer-title">Dropbox</h>
+                <ul>
+                  <li class="footer-title">Applicazione Desktop</li>
+                  <li class="footer-title">Perchè Dropbox</li>
+                  <li class="footer-title">Piani</li>
+                  <li class="footer-title">Sicurezza</li>
+                  <li class="footer-title">Funzioni</li>
+                </ul>
               </div>
-              <div class="col-1-5">
-                <div class="card">Prodotti</div>
+            </div>
+            <div class="col-1-5">
+              <div class="first">
+                <h class="footer-title">Prodotti</h>
+                <ul>
+                  <li class="footer-title">Applicazione Desktop</li>
+                  <li class="footer-title">Perchè Dropbox</li>
+                  <li class="footer-title">Piani</li>
+                  <li class="footer-title">Sicurezza</li>
+                  <li class="footer-title">Funzioni</li>
+                </ul>
               </div>
-              <div class="col-1-5">
-                <div class="card">Azienda</div>
+            </div>
+            <div class="col-1-5">
+              <div class="first">
+                <h class="footer-title">Azienda</h>
+                <ul>
+                  <li class="footer-title">Applicazione Desktop</li>
+                  <li class="footer-title">Perchè Dropbox</li>
+                  <li class="footer-title">Piani</li>
+                  <li class="footer-title">Sicurezza</li>
+                  <li class="footer-title">Funzioni</li>
+                </ul>
               </div>
-              <div class="col-1-5">
-                <div class="card">Supporto</div>
+            </div>
+            <div class="col-1-5">
+              <div class="first">
+                <h class="footer-title">Supporto</h>
+                <ul>
+                  <li class="footer-title">Applicazione Desktop</li>
+                  <li class="footer-title">Perchè Dropbox</li>
+                  <li class="footer-title">Piani</li>
+                  <li class="footer-title">Sicurezza</li>
+                  <li class="footer-title">Funzioni</li>
+                </ul>
               </div>
-              <div class="col-1-5">
-                <div class="card">Comunity</div>
+            </div>
+            <div class="col-1-5">
+              <div class="first">
+                <h class="footer-title">Comunity</h>
+                <ul>
+                  <li class="footer-title">Applicazione Desktop</li>
+                  <li class="footer-title">Perchè Dropbox</li>
+                  <li class="footer-title">Piani</li>
+                  <li class="footer-title">Sicurezza</li>
+                  <li class="footer-title">Funzioni</li>
+                </ul>
               </div>
             </div>
           </div>
