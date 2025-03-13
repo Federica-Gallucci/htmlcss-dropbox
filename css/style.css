@@ -331,6 +331,10 @@ main .row {
   padding-bottom: 60px;
 }
 
+#utilities p {
+  padding-top: 10px;
+}
+
 /* #CLIENTS */
 
 #clients {
