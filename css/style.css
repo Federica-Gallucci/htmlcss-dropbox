@@ -96,6 +96,7 @@ ul {
 
 .card {
   border: 2px solid #f3f3f3;
+  height: 100%;
 }
 
 .button-big {
@@ -142,6 +143,10 @@ ul {
 
 .button-small {
   width: 50px;
+  height: 22px;
+}
+
+.logo-small {
   height: 20px;
 }
 
@@ -231,6 +236,7 @@ main .row {
   border-radius: 50%;
   background-color: white;
   border: 2px solid #f3f3f3;
+  margin-left: 15px;
 }
 
 /*  spaziatura in card-medium tra i contenuti */
@@ -242,6 +248,7 @@ main .row {
 .chose-botton {
   display: flex;
   padding-top: 40px;
+  gap: 3px;
 }
 
 #business-plane .group {
@@ -251,26 +258,40 @@ main .row {
 #business-plane .card .card-body {
   display: flex;
   flex-direction: column;
-  gap:20px;
+  gap: 20px;
   padding: 10px;
 }
 
-#business-plane .card .card-body li,
+#business-plane .card .card-body .space-up-body,
 #business-plane .card .card-body,
 #business-plane .card .enterprise-bottom .text-enterprise {
   display: flex;
   flex-direction: column;
-  gap:10px;
+  gap: 10px;
   padding: 10px;
 }
 
-/* #business-plane ul { */
-  padding-top: 30px;
+/* padding della parte alta di card-body */
+#business-plane .ml {
+  padding-left: 20px;
+}
+
+#business-plane strong {
+  padding-left: 20px;
+  font-size: 12px;
+}
+
+#business-plane .month {
+  padding-left: 20px;
+}
+
+.move-word {
   padding-bottom: 30px;
 }
 
-/* #business-plane li { */
-  padding-bottom: 10px;
+#business-plane .list-down {
+  padding-top: 10px;
+  font-size: 12px;
 }
 
 .button-big2 {
@@ -279,28 +300,37 @@ main .row {
   margin-top: 20px;
 }
 
-#business-plane .button-big2 {
+#business-plane h4 {
+  padding-left: 20px;
+  padding-bottom: 20px;
+  font-weight: 800;
+  font-size: 12px;
+}
+
+#business-plane . #business-plane .button-big2 {
   font-size: 8px;
-  
+
   display: flex;
-  
-  
-  padding: 10px 40px;
-  
+
+  padding: 15px 60px;
 }
 
 .move-button {
-  padding: 10px  30px;
-  
+  padding: 0px 20px;
+}
+
+.move-enterprise {
+  margin-right: 40px;
 }
 
 .buy-link {
   display: flex;
 
   align-items: center;
-  padding-left: 30px;
+  padding-left: 20px;
   padding-top: 20px;
   padding-bottom: 30px;
+  font-size: 12px;
 }
 
 .link {
@@ -308,6 +338,14 @@ main .row {
 
   padding-left: 20px;
   text-decoration: underline;
+}
+
+.body-line {
+  width: 40px;
+  background-color: #f3f3f3;
+  margin-left: 20px;
+
+  margin-bottom: 40px;
 }
 
 .month {
@@ -319,6 +357,10 @@ main .row {
   justify-content: space-between;
 }
 
+.me {
+  padding-top: 50px;
+  font-size: 12px;
+}
 
 /* #FIND PARTNER */
 
