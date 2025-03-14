@@ -64,6 +64,11 @@ ul {
   list-style-type: none;
 }
 
+/* CUSTOM PROPRS */
+
+:root {
+}
+
 /* UTILITY */
 
 .debug * {
@@ -91,7 +96,6 @@ ul {
 
 .card {
   border: 2px solid #f3f3f3;
-  padding: 10px;
 }
 
 .button-big {
@@ -127,7 +131,9 @@ ul {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 15px;
+  background-color: white;
+
+  padding: 10px;
 }
 
 .header-list {
@@ -143,6 +149,8 @@ ul {
 
 main {
   flex-grow: 1;
+
+  margin-right: 2px;
 }
 
 main .row {
@@ -199,6 +207,16 @@ main .row {
   padding-top: 120px;
 }
 
+#business-plane .card {
+  margin-top: 40px;
+}
+
+#business-plane .card .card-top {
+  text-align: center;
+  padding: 5px;
+  border-bottom: 1px solid #f3f3f3;
+}
+
 .botton-border {
   width: 15px;
   height: 15px;
@@ -215,43 +233,43 @@ main .row {
   border: 2px solid #f3f3f3;
 }
 
-.chose-botton {
-  display: flex;
-}
-
-#business-plane .chose-botton {
-  padding-top: 60px;
-}
-
-#business-plane .chose-botton p {
-  padding-right: 50px;
-}
+/*  spaziatura in card-medium tra i contenuti */
 
 .business-title {
+  padding-bottom: 50px;
+}
+
+.chose-botton {
+  display: flex;
   padding-top: 40px;
-  padding-bottom: 60px;
 }
 
 #business-plane .group {
   padding-bottom: 20px;
 }
 
-#business-plane h3 {
-  padding-top: 20px;
-  padding-bottom: 20px;
+#business-plane .card .card-body {
+  display: flex;
+  flex-direction: column;
+  gap:20px;
+  padding: 10px;
 }
 
-#business-plane p {
-  padding-top: 5px;
-  padding-bottom: 5px;
+#business-plane .card .card-body li,
+#business-plane .card .card-body,
+#business-plane .card .enterprise-bottom .text-enterprise {
+  display: flex;
+  flex-direction: column;
+  gap:10px;
+  padding: 10px;
 }
 
-#business-plane ul {
+/* #business-plane ul { */
   padding-top: 30px;
   padding-bottom: 30px;
 }
 
-#business-plane li {
+/* #business-plane li { */
   padding-bottom: 10px;
 }
 
@@ -262,14 +280,18 @@ main .row {
 }
 
 #business-plane .button-big2 {
-  padding: 10px 10px;
+  font-size: 8px;
+  
   display: flex;
-  justify-content: center;
+  
+  
+  padding: 10px 40px;
+  
 }
 
 .move-button {
-  padding-right: 20px;
-  padding-left: 10px;
+  padding: 10px  30px;
+  
 }
 
 .buy-link {
@@ -281,14 +303,6 @@ main .row {
   padding-bottom: 30px;
 }
 
-#business-plane h4 {
-  padding-left: 30px;
-}
-
-#business-plane ul {
-  padding-left: 10px;
-}
-
 .link {
   color: #5a4fa4;
 
@@ -296,18 +310,8 @@ main .row {
   text-decoration: underline;
 }
 
-.icone-text {
-  padding: 0 100px;
-  border-bottom: 2px solid #f3f3f3;
-}
-
 .month {
   color: grey;
-}
-
-.team-build {
-  display: flex;
-  justify-content: center;
 }
 
 .enterprise-bottom {
@@ -315,14 +319,6 @@ main .row {
   justify-content: space-between;
 }
 
-#business-plane .enterprise-bottom button {
-  padding-right: 20px;
-}
-
-#business-plane h5 {
-  padding-top: 20px;
-  padding-bottom: 50px;
-}
 
 /* #FIND PARTNER */
 
@@ -376,6 +372,7 @@ main .row {
 .page-footer {
   background-color: black;
   color: white;
+  margin-left: 2px;
 }
 
 .footer-title {
@@ -395,6 +392,13 @@ main .row {
 
 .page-footer li {
   padding-bottom: 10px;
+}
+
+.footer-line {
+  width: 70px;
+  background-color: #979b96;
+
+  margin-top: 60px;
 }
 
 .footer-low {
